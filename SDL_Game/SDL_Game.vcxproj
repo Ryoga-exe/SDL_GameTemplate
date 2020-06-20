@@ -153,6 +153,7 @@ xcopy "C:\ProgLibs\GLEW\lib\win\x86\*.dll" "$(OutDir)" /i /s /y</Command>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Game.cpp" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
