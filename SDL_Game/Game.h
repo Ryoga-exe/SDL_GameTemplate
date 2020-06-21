@@ -4,9 +4,10 @@
 class Game {
 public:
 	Game();
-	bool Initialize();
+	bool Initialize(const char* windowTitle);
 	void RunLoop();
 	void Finalize();
+
 private:
 	void ProcessInput();
 	void Update();
